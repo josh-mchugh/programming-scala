@@ -7,3 +7,5 @@ In this example of Hello World, we write into a scala file and then execute it f
 ## Script.scala
 On Unix-like systems, Scala can be ran as scripts by setting the shell preamble. Reminder to give the script executable permissions with chmod +x.
 
+## Sample.scala
+We create a Scala class as main and use the Scala compile to compile the class and run it. Scala does not support static methods. With Scala we define an Object which is a Singleton class and initialize a main method within the object.
