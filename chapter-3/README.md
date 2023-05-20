@@ -9,3 +9,6 @@ Scala 'for' loops are lightweight and define 'val' on the left side and use a ge
 
 ## GreetingsForEach.scala
 With Scala the code can be even more concise by using the functional 'foreach'. The 'foreach' function no longer has assignments, and accepts a function value as a parameter. We provide the body of code for the one argument and use a Range type for the implementation.
+
+## ScalaInt.scala
+Scala treaats everything as objects. There are no primitives in Scala. Scala can work with Java by quietly treating Scala objects as primitives when it is needed. There is no performance loss at runtime for these type conversions either.
