@@ -12,3 +12,9 @@ With Scala the code can be even more concise by using the functional 'foreach'. 
 
 ## ScalaInt.scala
 Scala treaats everything as objects. There are no primitives in Scala. Scala can work with Java by quietly treating Scala objects as primitives when it is needed. There is no performance loss at runtime for these type conversions either.
+
+## MultipleAssignment.scala
+Scala supports tuples and multiple assignments. A tuple is an immutable object sequence created as comma-seperated values.
+
+## MultipleAssignment2.scala
+Scala will not allow you to assign fewer or more variables to your tuple or assigned values. It will be caught at compile time.
