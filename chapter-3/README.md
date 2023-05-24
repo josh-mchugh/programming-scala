@@ -18,3 +18,9 @@ Scala supports tuples and multiple assignments. A tuple is an immutable object s
 
 ## MultipleAssignment2.scala
 Scala will not allow you to assign fewer or more variables to your tuple or assigned values. It will be caught at compile time.
+
+## MultiLine.scala
+Scala Strings are not like Java Strings. You can use them as you would in Java but they have additional functionality. Scala can automatically convert a String to a scala.runtime.RichString which opens up additional methods such as 'capitialize()', 'lines()', and 'reverse()'. Scala also supports multiple likes with triple quotes ("""...""").
+
+## MultiLine2.scala
+Scala multi line strings allows for emedded quotes within the String. Multi line strings also takes indentations literally. We can use a RichString method called 'stripMargin' to remove all the blank or control characters before the leading pipe (|).
