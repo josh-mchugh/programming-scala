@@ -24,3 +24,9 @@ Scala Strings are not like Java Strings. You can use them as you would in Java b
 
 ## MultiLine2.scala
 Scala multi line strings allows for emedded quotes within the String. Multi line strings also takes indentations literally. We can use a RichString method called 'stripMargin' to remove all the blank or control characters before the leading pipe (|).
+
+## Complex.scala
+Scala has no operator overloading, like '+' or '+-'. In Scala these are actually method names. Scala does not require a dot (.) between object references so we are able to have the illusion of operator overloading such as: ref1 + ref2. The previous statement is actually: ref1.+(ref2). This illusion is possible because of Scala's lenient method invocation syntax.
+
+## Complex2.scala
+Scala perseves the order of operations by precedence on methods. The first character of each method determines the order their priority. If two methods have the same pirority then the expression to the left takes higher priority.
