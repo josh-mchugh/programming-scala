@@ -30,3 +30,12 @@ Scala has no operator overloading, like '+' or '+-'. In Scala these are actually
 
 ## Complex2.scala
 Scala perseves the order of operations by precedence on methods. The first character of each method determines the order their priority. If two methods have the same pirority then the expression to the left takes higher priority.
+
+## SerialAssignments.scala
+The result of the assignment operation (a = b) in Scala is a Unit. In Java, the reslt of the assignment is the value of a, so multiple assignments like (a = b = c) can appear in series in Java. In Scala since the result of an assignment is Unit, the assignment of another variable will result in a type mismatch error.
+
+## Equality.scla
+Scala handles == differently than Java. It is consistent across all types and represents value-based comparison no matter the type. This is ensured by implementing ==() as a funal in the class Any which all Scala classes in Scala derive from. If you want to perform an identity based comparison in Scala then use the (eq) method.
+
+## OptionalSemicolon.scala
+Scala infers a semicolon if your statement does not end with an infix notation like (+,*,or.) or is not within paraentheses or square brackets. It also infers a semicolon if the next statement starts with something thta can start a statement.
