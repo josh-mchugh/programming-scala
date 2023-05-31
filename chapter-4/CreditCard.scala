@@ -1,0 +1,2 @@
+//Scala rolls the primary constructor into the class definition and procives concise way to define fields and corresponding methods. For small Scala classes you do not even need the {}. Scala classes default to public unless specified. When using 'val' in Scala, it will make it as final and generate a getting method. When using 'var' in Scala it will generate a getter and setter for the variable. If 'val' or 'var' is not declared it will create a priate field with private getters and setters.
+class CreditCard(val number: Int, var creditLimit: Int)
