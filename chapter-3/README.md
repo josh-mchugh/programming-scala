@@ -1,5 +1,5 @@
 # Chapter 3
-In this chapter we compare Java to Scala with some code. We will compare the conciseness of scala. 
+In this chapter we compare Java to Scala with some code. We will compare the conciseness of scala. We see how Java and Scala are similar and how they differ. Scala brings a lot of new functionaliy to the JVM but how to becareful because Scala and Java do differ.
 
 ## Greetings.java & Greetings.scala
 In this example we demonstrate that Scala can reduce a lot of cerefmony that Java brings such as class declaration, static main, semi-colons, and static references to System.out and typer inferance.
@@ -11,7 +11,7 @@ Scala 'for' loops are lightweight and define 'val' on the left side and use a ge
 With Scala the code can be even more concise by using the functional 'foreach'. The 'foreach' function no longer has assignments, and accepts a function value as a parameter. We provide the body of code for the one argument and use a Range type for the implementation.
 
 ## ScalaInt.scala
-Scala treaats everything as objects. There are no primitives in Scala. Scala can work with Java by quietly treating Scala objects as primitives when it is needed. There is no performance loss at runtime for these type conversions either.
+Scala treats everything as objects. There are no primitives in Scala. Scala can work with Java by quietly treating Scala objects as primitives when it is needed. There is no performance loss at runtime for these type conversions either.
 
 ## MultipleAssignment.scala
 Scala supports tuples and multiple assignments. A tuple is an immutable object sequence created as comma-seperated values.
@@ -39,3 +39,15 @@ Scala handles == differently than Java. It is consistent across all types and re
 
 ## OptionalSemicolon.scala
 Scala infers a semicolon if your statement does not end with an infix notation like (+,*,or.) or is not within paraentheses or square brackets. It also infers a semicolon if the next statement starts with something thta can start a statement.
+
+## Access.scala
+By default Scala treats classes, fields and methods as public if you don't use an access modifer. You can make the primary constructor private. If you want to make a member private or proected, simply mark it with the respective keyworld.
+
+## Protected.scala
+In Scala, protected makes the decorated members visible to the class and its derived classes only. Other classes that belong to the package cannot access these members. Furthermore, the derived class can access the protected members only on its own type.
+
+## FineGrainedAccessControl.scala
+Scala gives far greater flexibility and also fine-grained control over setting access visibility. You can specify additional parameters for private and protected modifiers. Scala allows you to defind nested packages.
+
+## AvoidExplicitReturns.scal
+In Scala it is not good practice to use returns from methods. Scala sees a return and bails out of that method. It affects Scala's ability to infer the return type.
