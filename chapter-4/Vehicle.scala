@@ -1,4 +1,4 @@
-//
+//Extending classes in Scala is similar to Java expect for two restrictions: method overriding requires the 'override' keyword and only the primary constructor can pass parameters to the base constructor. Scala avoid override methods by acciedent by requiring the keyword. Auxiliary constructors have to call either the primary constructor or another auxiliary constructor.
 class Vehicle(val id: Int, val year: Int) {
   override def toString(): String = "ID: " + id + " Year: " + year
 }
