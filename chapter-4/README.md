@@ -15,3 +15,6 @@ Any expression or executable statement you put into your class definition is act
 
 ## Person.scala
 Scala can also define other fields, methods, and auxiliary constructors. In this example, the primary constructor takes two parameters. The auziliary constructor takes three parameters. The first call within an auxiliary constructor is required to call the primary constructor or another auxilary constructor. Scala treats field specially, any var defined within in a class is mapped to private and has corresponding accessor methods. 
+
+## Vehicle.scala
+Extending classes in Scala is similar to Java expect for two restrictions: method overriding requires the 'override' keyword and only the primary constructor can pass parameters to the base constructor. Scala avoid override methods by acciedent by requiring the keyword. Auxiliary constructors have to call either the primary constructor or another auxiliary constructor.
