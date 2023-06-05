@@ -18,3 +18,9 @@ Scala can also define other fields, methods, and auxiliary constructors. In this
 
 ## Vehicle.scala
 Extending classes in Scala is similar to Java expect for two restrictions: method overriding requires the 'override' keyword and only the primary constructor can pass parameters to the base constructor. Scala avoid override methods by acciedent by requiring the keyword. Auxiliary constructors have to call either the primary constructor or another auxiliary constructor.
+
+## Singleton.scala
+Scala makes it very easy to create singleton. To create a singleton you use the keyword 'object' instead of 'class'. Since you cannot instantiate a singleton object, you cannot pass parameters to the primary constructor.
+
+## Markers.scala & UseMarker.scala
+Scala allows you to create a singleton that is connected to a class. The singleton will share the same name as a class name and is called a compainion object. The class is called a companion class. Companion classes and objects have no boundry and can access the private fields and methods of each other. 
