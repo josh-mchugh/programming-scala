@@ -1,5 +1,5 @@
 # Chapter 4
-TODO
+Scala is a fully object oriented functional programming language. It supports classes and objects. Within Scala everything is an object. Classes have primary constructors and auxilary constructors. It supports inheritance but differs from how Java implements it. Scala does not support static methods or classes but uses companion classes and objects.
 
 ## Car.java
 In this example of a Java class, it follows the the bean convention of exposing its properties. It has two properties, and corresponding getter methods. It also has a method to manipulate the miles property. It also has a constructor which intitializes the final field year.
@@ -24,3 +24,6 @@ Scala makes it very easy to create singleton. To create a singleton you use the 
 
 ## Markers.scala & UseMarker.scala
 Scala allows you to create a singleton that is connected to a class. The singleton will share the same name as a class name and is called a compainion object. The class is called a companion class. Companion classes and objects have no boundry and can access the private fields and methods of each other. 
+
+## Static.scala
+Scala does not have static fields and methods. Allowing static fields and methods would break the fully object-oriented model that Scala supports. Scala supports class-level operations and properties. Companion objects allow us to call methods like static methods. Companion objects also have the ability to create instances of the companion class without the new keyword via the 'apply()' method.
