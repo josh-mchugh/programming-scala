@@ -9,3 +9,6 @@ In this chapter we compare Java to Scala with some code. We will compare the con
 
 ## Chapter 4
 Scala is a fully object oriented functional programming language. It supports classes and objects. Within Scala everything is an object. Classes have primary constructors and auxilary constructors. It supports inheritance but differs from how Java implements it. Scala does not support static methods or classes but uses companion classes and objects.
+
+## Chapter 5
+TODO
