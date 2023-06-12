@@ -15,3 +15,6 @@ We can alter the default behavior in Scala to allow assignment of Generics with 
 
 ## OptionExample.scala
 Scala supports Option which allows return an object which may contain a value or not. In the example we use 'Set' and 'None' which extend from 'Option[T]'. Option has a function called 'getOrElse' which allows us to handle 'None' or 'null' values.
+
+## Methods.scala
+Scala tries to infer the return type of methods. It depends on how youd define your methods. If you define a method with an equal sign, then Scala will infer the return type. Otherwise, it assumes the method is a void method.
