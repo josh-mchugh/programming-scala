@@ -12,3 +12,6 @@ Scala is a fully object oriented functional programming language. It supports cl
 
 ## Chapter 5
 This chapter covers Scala's static typing and typer inference. Scala's type inference allows for concise code. It allows us to write code without having to redundantly make type statements. It also covers who Scala base classes of Any and Nothing. Scala also supports optional data with Option[T], Set, and None. Scala has inference of method return types by the way the method is declared. If a method has an "=" then method type will be inferred otherwise it is consider a void return type. Collections in has to specifically expressed to allow use of derived or supertypes with association of the collection.
+
+## Chapter 6
+TODO
