@@ -12,3 +12,12 @@ Currying in Scala transforms a function that takes more than one paramter into a
 
 ## Equipment.scala
 Scala let you define full functions within other functions. In our example we pass the function into two different instances. This way if the function changes we do not have to change it in two different places. This way we eliminate duplicate code.  Scala allows for good design principles and code quality.
+
+## Underscore.scala
+Scala provides the notion of '_'. The underscore represents paramters of a function value. Each time the underscore is used within a function, it represents a subsequent parameter.
+
+## Resource.scala
+Scala provides a way to easily implement and construct 'Execute around method' pattern. In this example we create a private class and companion object which starts a transaction via the constructor, then executes a code block and follows up by cleaning up afterwards.
+
+## WriteToFile.scala
+Example of using the Execute Around Method pattern or Loan pattern. This example uses the PrintWriter to write to the file. The user of the 'writeToFile' method does not have to worry about closing the file.
