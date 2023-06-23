@@ -15,3 +15,6 @@ This chapter covers Scala's static typing and typer inference. Scala's type infe
 
 ## Chapter 6
 In this chapter we discover how Scala treats functions as first-class citizens. Scala allows for functions to be assigned to variables, parametrs and be used by other functions. Scala has a special use for the underscore character as we can traverse the paramter references with it. We can use Scala to use of functions as first-class citizens to execute code blocks and easily perform the Execute Around Method pathern with class and companion objects. Scala also allows for partial functions and closures giving you all the tools you need with functions to make concise and reuseable code.
+
+## Chapter 7
+TODO
