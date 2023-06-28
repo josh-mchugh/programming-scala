@@ -10,3 +10,6 @@ Scala allows you to mix in traits at an instance level. Scala has a keyword 'wit
 
 ## Decorators.scala
 Traits in Scala allow you to mix in crosscutting concerns, and you can use them to create highly extensible code with low ceremony. Rather than creating a hierarchy of classes and interfaces, you can put your essential code to quick use.
+
+## MethodBinding.scala
+Scala's traits can get a bit complex with abstracted base methods. Scala will start with the last trait and work its way to the first trait. The order of the traits are important if you expect specific outcomes.
