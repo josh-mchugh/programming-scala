@@ -18,3 +18,6 @@ In this chapter we discover how Scala treats functions as first-class citizens. 
 
 ## Chapter 7
 We cover Scala Traits and Type conversions. Scala use of traits allows it be extend and combind functionality with objects. It easily allows for mixing crosscutting conerns with low ceremony. Scala allows for Typer conversions which allows for easy ability to create domain specific languages and develop domain languages.
+
+## Chapter 8
+TODO
