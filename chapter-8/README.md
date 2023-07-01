@@ -3,3 +3,6 @@ TODO
 
 ## UsingSet.scala
 Scala favors immutable collections. Mutable connections are available, if you want to mutable collection and are working in a single thread. Immutable collections are thread safe and side effect free which helps program correctness.  In this example we start with a set with 3 colors and then add another color. It does not modify the original Set but returns a new Set.
+
+## UsingSet2.scala
+Scala Set collection allows us to easily filter, merge, intersect, map, and iterator over the collection with it's useful functions. It's easy to complete these operations in one line of code.
