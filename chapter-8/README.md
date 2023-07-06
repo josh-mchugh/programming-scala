@@ -9,3 +9,6 @@ Scala Set collection allows us to easily filter, merge, intersect, map, and iter
 
 ## UsingMap.scala
 Scala implmentation of Map comes in two types: immutable and mutable. When working with Maps, we can easily filter and retrieve values safely with it's funtions of 'filter' and 'get()'. It is good to keep in mind that Map is immutable and if you need to use a mutable Map, there is a version of that which can be used.
+
+## UsingList.scala
+In this example we demonstrate Scala's List. Unlike Set or Map, the List only comes in the immutable flavor. It has useful functions for accessing the first (head) and last element of the List. We can prefix and append a List with '::'. This returns a new list with the new element(s). Lists also have useful functions for filtering, all, any, exists, and map. They also support folding and contian many more useful functions.
