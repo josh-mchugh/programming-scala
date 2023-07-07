@@ -12,3 +12,7 @@ Scala implmentation of Map comes in two types: immutable and mutable. When worki
 
 ## UsingList.scala
 In this example we demonstrate Scala's List. Unlike Set or Map, the List only comes in the immutable flavor. It has useful functions for accessing the first (head) and last element of the List. We can prefix and append a List with '::'. This returns a new list with the new element(s). Lists also have useful functions for filtering, all, any, exists, and map. They also support folding and contian many more useful functions.
+
+## Colon.scala & Unary.scala
+In scala the last character in a method name can determine the target of the method call. If a method name ends with a color, then the target of the call is the instance that follows it.
+Scala supports operators that are targeted at an instance that follows them. These are the unary operators: +, -, !, ~. As you get comfortable with Scala, you will develop a Scala eye.
