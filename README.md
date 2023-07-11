@@ -21,3 +21,6 @@ We cover Scala Traits and Type conversions. Scala use of traits allows it be ext
 
 ## Chapter 8
 In this chapter we see how Scala works with collections. Scala supports immutable versions of Set, Map, and List while also supporting a mutable version of Set and Map. We experiment with unary operators, understand colon with method names. Explored the versatility of the 'for' and its powerful functionality and expressiveness.
+
+## Chapter 9
+TODO
