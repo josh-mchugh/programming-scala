@@ -13,3 +13,6 @@ You can use Pattern Matching to match against tuples. In this example we match a
  
 ## MatchTypes.scala
 Scala's pattern matching can handle a squence of values that are not all of the same type. It can handle single values, elements of tuple. It also allows for guards. Guards are provided sing the if clause and must be satisified for the expression to be evaulated. The order of the cases in the pattern matching is important. Scala evaluates from the top down.
+
+## MatchWithValsError.scala & MatchWithValsOk.scala
+Scala pattern matching has some expectations when pattern matching. It expects pattern variables to start with lowercase letters and constants to start with uppercase letter. Scala will throw a compile error when a constant is in lowercase.
