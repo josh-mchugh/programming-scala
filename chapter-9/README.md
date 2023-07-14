@@ -16,3 +16,6 @@ Scala's pattern matching can handle a squence of values that are not all of the 
 
 ## MatchWithValsError.scala & MatchWithValsOk.scala
 Scala pattern matching has some expectations when pattern matching. It expects pattern variables to start with lowercase letters and constants to start with uppercase letter. Scala will throw a compile error when a constant is in lowercase.
+
+## TradeProcessor.scala & ThingsAcceptor.scala
+Scala has special classes called 'case classes' which are used in pattern matching. Case classes allow for classes to be pattern matched with the information in the classes. When passing a case classes of Any type through a pattern match, becareful of what you send as you may send a companion object or a function instead of an instance of case class.
