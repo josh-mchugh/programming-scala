@@ -19,3 +19,6 @@ Scala pattern matching has some expectations when pattern matching. It expects p
 
 ## TradeProcessor.scala & ThingsAcceptor.scala
 Scala has special classes called 'case classes' which are used in pattern matching. Case classes allow for classes to be pattern matched with the information in the classes. When passing a case classes of Any type through a pattern match, becareful of what you send as you may send a companion object or a function instead of an instance of case class.
+
+## Extractor.scala
+Scala procide Extractors for pattern matching. Extractors extract matching parts from the input. They allow you to match arbitrary patterns. Leveraging the 'unapply' method, and return as many matching parts as you desire.
