@@ -22,3 +22,6 @@ Scala has special classes called 'case classes' which are used in pattern matchi
 
 ## Extractor.scala
 Scala procide Extractors for pattern matching. Extractors extract matching parts from the input. They allow you to match arbitrary patterns. Leveraging the 'unapply' method, and return as many matching parts as you desire.
+
+## RegularExpression.scala
+Scala supports regular expressions through classes in the 'scala.util.matching' package. When working with regular expressions, you are working with an instance of the Regex class in that package.
