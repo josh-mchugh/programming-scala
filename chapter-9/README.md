@@ -1,5 +1,5 @@
 # Chapter 9
-TODO
+In this chapter we explore the power feature of Pattern Matching within Scala. Scala's pattern matching allows us to easily match literals, types, tuples, lists, regular expressions. Extractors can be used with pattern matching for more fine grain control over expressions. Scala brings a lot to the table for pattern matching.
 
 ## MatchLiterals.scala
 When using pattern matching with a literal you do not have to do much to match it. The match expression acts as Any. It performs pattern matching on the target and invokes the appropriate case expression. You can directly match against literals and constants. The literals can be different types as the match does not care.
@@ -25,3 +25,6 @@ Scala procide Extractors for pattern matching. Extractors extract matching parts
 
 ## RegularExpression.scala
 Scala supports regular expressions through classes in the 'scala.util.matching' package. When working with regular expressions, you are working with an instance of the Regex class in that package.
+
+## MatchingUsingRegex.scala
+Scala regular expressions are extractors so they can be easily used in case expressions. Scala behind the scenes runs the 'unapply' method on the regular expression which allows it to be an extractor for the pattern matching.
