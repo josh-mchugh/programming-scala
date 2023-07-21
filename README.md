@@ -24,3 +24,6 @@ In this chapter we see how Scala works with collections. Scala supports immutabl
 
 ## Chapter 9
 In this chapter we explore the power feature of Pattern Matching within Scala. Scala's pattern matching allows us to easily match literals, types, tuples, lists, regular expressions. Extractors can be used with pattern matching for more fine grain control over expressions. Scala brings a lot to the table for pattern matching.
+
+## Chapter 10
+TODO
