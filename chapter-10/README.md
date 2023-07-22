@@ -7,3 +7,6 @@ Scala provides an event-based and lightweight threading. Actors are used to pass
 ## MessagePassing.scala & AskFortune.scala
 Each Actor has it's own message queue, it receives input from an InputChannel and sends output through an OutputChannel. Actors can send messages to others and themself. An actor is not blocked on sending messages but is when it calls receive(). Actors do not get interrupted by messages.
 Actors send and receive message asynchronously. Messages can be sent synchronously between actors with '!?()'. This will block until it receives a response, which may lead to deadlocks.
+
+## AnsweringService.scala
+Scala Actor is just a trait which allows us to mix it in however we would like. It gives the ability to create objects which have the actor trait.
