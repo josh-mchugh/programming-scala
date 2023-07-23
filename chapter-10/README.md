@@ -13,3 +13,6 @@ Scala Actor is just a trait which allows us to mix it in however we would like. 
 
 ## PrimeTeller.scala
 In Scala you can pass data between actors using the '!()' and 'receive' methods. Actors process each message it receives in the order they receieve them. You can process multiple message concurrently. Scala allows you to write concurrent code effortlessly and in a thread safe manner with immutable objects.
+
+## React.scala & ReactWithin.scala
+When calling 'receive' from actors, it uses a thread which is held onto until the actor is done completely. Scala provides a more effective way of sending messages without holding onto threads with the 'react' method. Similar 'reactWithin()' will timout if any message is not received within the time peroid.
