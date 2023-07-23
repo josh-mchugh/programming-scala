@@ -10,3 +10,6 @@ Actors send and receive message asynchronously. Messages can be sent synchronous
 
 ## AnsweringService.scala
 Scala Actor is just a trait which allows us to mix it in however we would like. It gives the ability to create objects which have the actor trait.
+
+## PrimeTeller.scala
+In Scala you can pass data between actors using the '!()' and 'receive' methods. Actors process each message it receives in the order they receieve them. You can process multiple message concurrently. Scala allows you to write concurrent code effortlessly and in a thread safe manner with immutable objects.
