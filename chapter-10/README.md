@@ -19,3 +19,6 @@ When calling 'receive' from actors, it uses a thread which is held onto until th
 
 ## Loop.scala
 Instead of calling 'reactWithin()' recursively, you can use the method 'loop()'.  The 'loopWhile()' method is similar but only continues as long as the condition is valid. With 'loopWhile()' you can put local state outside of the loop and access it within 'reactWithin()'.
+
+## InMainThread.scala
+Actors can run on their own threads, but actors can also share threads from the thread pool. If there is a need for more control, Scala allows for actors to use the main thread with SingleThreadedScheduler.
