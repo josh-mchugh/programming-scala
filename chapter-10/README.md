@@ -16,3 +16,6 @@ In Scala you can pass data between actors using the '!()' and 'receive' methods.
 
 ## React.scala & ReactWithin.scala
 When calling 'receive' from actors, it uses a thread which is held onto until the actor is done completely. Scala provides a more effective way of sending messages without holding onto threads with the 'react' method. Similar 'reactWithin()' will timout if any message is not received within the time peroid.
+
+## Loop.scala
+Instead of calling 'reactWithin()' recursively, you can use the method 'loop()'.  The 'loopWhile()' method is similar but only continues as long as the condition is valid. With 'loopWhile()' you can put local state outside of the loop and access it within 'reactWithin()'.
