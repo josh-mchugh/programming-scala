@@ -1,5 +1,5 @@
 # Chapter 10
-TODO
+This chapter demonstrated the power of Scala and it's actor model implementation which allows for asynchronous and concurrent operations. We explore how to use actors and send messages between. There are several ways to send and receive message in blocking and non-blocking methods. We even explored how to control the threading of actors as some may need to share threads from a thread pool.
 
 ## PerfectNumberFinder.scala
 Scala provides an event-based and lightweight threading. Actors are used to pass messages between each other. Actors are companion objects. Each accepts a function value / closure as a parameter and starts running as soon as you create it. Actors send messages with '!()' method and receieve messages with the 'receive()'. The receive accepts a closure and typically you'd use pattern matchin to process received messages.

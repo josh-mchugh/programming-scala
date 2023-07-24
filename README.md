@@ -26,4 +26,8 @@ In this chapter we see how Scala works with collections. Scala supports immutabl
 In this chapter we explore the power feature of Pattern Matching within Scala. Scala's pattern matching allows us to easily match literals, types, tuples, lists, regular expressions. Extractors can be used with pattern matching for more fine grain control over expressions. Scala brings a lot to the table for pattern matching.
 
 ## Chapter 10
+This chapter demonstrated the power of Scala and it's actor model implementation which allows for asynchronous and concurrent operations. We explore how to use actors and send messages between. There are several ways to send and receive message in blocking and non-blocking methods. We even explored how to control the threading of actors as some may need to share threads from a thread pool.
+
+## Chapter 11
 TODO
+
