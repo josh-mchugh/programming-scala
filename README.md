@@ -29,5 +29,4 @@ In this chapter we explore the power feature of Pattern Matching within Scala. S
 This chapter demonstrated the power of Scala and it's actor model implementation which allows for asynchronous and concurrent operations. We explore how to use actors and send messages between. There are several ways to send and receive message in blocking and non-blocking methods. We even explored how to control the threading of actors as some may need to share threads from a thread pool.
 
 ## Chapter 11
-TODO
-
+Scala and Java can easily intermix. They both use the same bytecode. Scala can be ran with Java within it's Scala script or compile classes. When mixing Scala into Java it is good to keep in mind some of the functionality that might not translate such as closures, traits and unique feature to Scala. Java may allow you to use some keywords which are reserved for Scala's syntx.
